@@ -1,0 +1,16 @@
+{
+    "name": "name",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "echo 1",
+        "build": "echo 1",
+        "test": "echo 1"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "webpack": "^4.29.5",
+        "webpack-cli": "^3.2.3"
+    },
+    "author": "smuszel",
+    "license": "ISC"
+}
