@@ -8,22 +8,21 @@ const config = {
         filename: 'abc.js'
     },
     resolve: {
-        // modules: ['./src', './node_modules'],
-        extensions: ['js', 'jsx']
+        extensions: ['.js', '.jsx']
     },
-    // entry: {
-    //     path: path.resolve(__dirname, 'src', 'index.js')
-    // },
+    entry: {
+        path: path.resolve(__dirname, 'src', 'index.js')
+    },
     module: {
         rules: [
-            { test: /(\.jsx|\.js)/, use: 'babel-loader' }
+            { test: /(\.jsx|\.js)/, exclude: /node_modules/, use: 'babel-loader' }
         ]
     },
     mode: 'development',
     devtool: 'source-map',
     plugins: [
         new webpack.ProgressPlugin(),
-        // new HtmlPlugin({ template: path.resolve(__dirname, 'index.html')})
+        new HtmlPlugin()
     ],
 };
 

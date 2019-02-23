@@ -5,7 +5,6 @@
 * code splitting
 * lint
 
-
 * devtool
 * plugins
 * target
@@ -15,3 +14,12 @@
 * input / output
 * hotload
 * alias
+
+
+
+Common solutions:
+
+* wds inline
+* resolve extensions .
+* specify explicitly with path.resolve
+* use loader
