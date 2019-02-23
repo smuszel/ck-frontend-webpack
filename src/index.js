@@ -1,3 +1,7 @@
-import x from './moduleC';
+import { createElement } from 'react';
+import { render } from 'react-dom'
+import App from './App';
 
-console.log(x);
+const root = document.createElement('div');
+document.body.appendChild(root);
+render(createElement(App), root);

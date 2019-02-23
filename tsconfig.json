@@ -4,6 +4,7 @@
         "checkJs": true,
         "allowSyntheticDefaultImports": true,
         "lib": ["esnext", "dom"],
+        "jsx": "react",
         "outDir": "./dist"
     },
     "exclude": ["node_modules", "dist"]
