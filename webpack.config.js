@@ -3,7 +3,7 @@ const HtmlPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 /** @type {webpack.Configuration} */
-const config = {
+module.exports = {
     output: {
         filename: 'abc.js'
     },
@@ -25,5 +25,3 @@ const config = {
         new HtmlPlugin()
     ],
 };
-
-module.exports = config
