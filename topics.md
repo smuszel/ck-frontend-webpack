@@ -15,8 +15,6 @@
 * hotload
 * alias
 
-
-
 Common solutions:
 
 * wds inline
